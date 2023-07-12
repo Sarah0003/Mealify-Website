@@ -1,0 +1,327 @@
+/* Start nav section */
+@media screen and (max-width:992px) {
+  .nav {
+    flex-direction: column;
+  }
+  .nav h2 {
+    margin-bottom: 15px;
+  }
+  .nav ul {
+    flex-direction: column;
+  }
+  .nav .home-col {
+    margin-top: 15px;
+  }
+  .nav li {
+    margin-bottom: 15px;
+  }
+  a::after {
+    flex-direction: column;
+  }
+}
+/* End nav section */
+
+/* Start Header section */
+@media screen and (min-width: 1200px) {
+  header {
+    min-height: 100vh;
+  }
+}
+@media screen and (max-width: 1100px) {
+  header .container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  header .container .home-content p {
+    margin: auto;
+  }
+
+  header .container .home-content .btn {
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+  }
+
+  header .container .home-content .img-section img {
+    width: 80%;
+  }
+}
+/* End Header section */
+
+/* Start Chefs section */
+@media screen and (max-width:1100px) {
+  .chefs .container {
+    margin: auto;
+  }
+
+  .chefs .container .chef-caption {
+    margin: 27rem 0 0;
+  }
+
+  .chef-cards .cards {
+    width: 23rem;
+    justify-content: center;
+
+  }
+}
+@media screen and (max-width: 960px) {
+  .chefs .container {
+    margin: auto;
+  }
+
+  .chef-cards .cards {
+    margin: 1rem;
+    width: 40rem;
+    justify-content: center;
+
+  }
+}
+/* End Chefs section */
+
+/* Start Gallary section */
+@media screen and (max-width:1400px) {
+  .gallary .container {
+    width: 80%;
+  }
+
+  .gallary .container .gallary-pics {
+    width: 100%;
+    align-items: center;
+    height: 50rem;
+    padding: 0;
+  }
+
+  .gallary .container .gallary-pics Picture {
+    width: 17em;
+  }
+}
+
+@media screen and (max-width:1060px) {
+
+  .gallary .container .gallary-pics {
+    height: 90rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  .gallary .container .gallary-pics Picture {
+    width: 18em;
+  }
+
+  .gallary .container .gallary-pics .pizza {
+    order: 1;
+  }
+
+  .gallary .container .gallary-pics .burger {
+    order: 2;
+  }
+
+  .gallary .container .gallary-pics .levitation-pizza {
+    order: 3;
+  }
+
+  .gallary .container .gallary-pics .frittata {
+    order: 4;
+  }
+
+  .gallary .container .gallary-pics .beef {
+    order: 5;
+  }
+
+  .gallary .container .gallary-pics .fried-chicken {
+    order: 6;
+  }
+
+  .gallary .container .gallary-pics .kebab {
+    order: 7;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .gallary .container {
+    width: 100%;
+    height: 250rem;
+  }
+
+  .gallary .container .gallary-pics {
+    width: 100%;
+    align-items: center;
+    height: 200rem;
+    margin: 0;
+  }
+
+  .gallary .container .gallary-pics Picture {
+    width: 100%;
+  }
+
+  .gallary .container .gallary-pics .pizza {
+    order: 1;
+  }
+
+  .gallary .container .gallary-pics .burger {
+    order: 2;
+  }
+
+  .gallary .container .gallary-pics .levitation-pizza {
+    order: 3;
+  }
+
+  .gallary .container .gallary-pics .frittata {
+    order: 4;
+  }
+
+  .gallary .container .gallary-pics .beef {
+    order: 5;
+  }
+
+  .gallary .container .gallary-pics .fried-chicken {
+    order: 6;
+  }
+
+  .gallary .container .gallary-pics .kebab {
+    order: 7;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .gallary .container {
+    width: 80%;
+  }
+
+  .gallary .container .gallary-pics {
+    width: 100%;
+    align-items: center;
+    height: 300rem;
+  }
+
+  .gallary .container .gallary-pics Picture {
+
+    width: 100%;
+
+  }
+
+  .gallary .container .gallary-pics .pizza {
+    order: 1;
+  }
+
+  .gallary .container .gallary-pics .burger {
+    order: 2;
+  }
+
+  .gallary .container .gallary-pics .levitation-pizza {
+    order: 3;
+  }
+
+  .gallary .container .gallary-pics .frittata {
+    order: 4;
+  }
+
+  .gallary .container .gallary-pics .beef {
+    order: 5;
+  }
+
+  .gallary .container .gallary-pics .fried-chicken {
+    order: 6;
+  }
+
+  .gallary .container .gallary-pics .kebab {
+    order: 7;
+  }
+}
+/* End gallary section */
+
+/* Start Contact section */
+@media screen and (max-width: 992px) {
+ 
+  .form .form-content .name  {
+    height: 7rem;
+  }
+  .form .form-content .name input {
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 910px) {
+
+  .contact-info .icon-fig{
+    /* margin-top: 0.5rem; */
+    width: 100%;
+  }
+}
+/* End Contact section */
+
+/* Start footer section */
+
+@media screen and (max-width: 1200px) {
+  .footer .container{
+    width: 80%;
+  }
+.footer-content{
+  width: 100%;
+  flex-wrap: wrap;
+}
+.section-1 {
+  width: 40%;
+ order: 1;
+}
+.section-3{
+  width: 40%;
+
+  order: 2;
+}
+.section-2{
+  width: 100%;
+
+  order: 3;
+}
+
+}
+
+
+@media screen and (max-width: 776px) {
+  .footer .container{
+    width: 80%;
+  }
+.footer-content{
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.section-1 {
+  width: 100%;
+ order: 1;
+}
+.section-3{
+  width: 100%;
+
+  order: 2;
+}
+.section-2{
+  width: 100%;
+
+  order: 3;
+}
+.section-2-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.section-2-content input {
+  width: 100%;
+  margin:  1rem;
+}
+.section-2-content button {
+  width: 100%;
+}
+
+}
+/* End footer section */
+
